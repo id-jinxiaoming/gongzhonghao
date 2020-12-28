@@ -1,0 +1,67 @@
+.form_list{
+    margin-top: 0.2rem;
+    width: 100%;
+    padding-top: 0.08rem;
+}
+.form_list form>div{
+    width: 100%;
+    border-bottom: 0.01rem solid #e0e0e0;
+    height: 0.78rem;
+    line-height: 0.35rem;
+    position: relative;
+}
+.form_list form label{
+    font-size: 0.14rem;
+    color: #f62347;
+}
+.form_list form input[type="text"],
+.form_list form input[type="password"]{
+    font-size: 0.16rem;
+    color: #000000;
+    width: 100%;
+    padding: 0;
+}
+.form_list form input[type="radio"]{
+    -webkit-appearance:radio;
+    margin: 0 0.05rem 0 0.03rem;
+    height: 0.16rem;
+    width: 0.16rem;
+    border: 0.01rem solid #000000;
+}
+.internal_announcement_list ul li{
+    padding: 0.12rem;
+    height: 0.8rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top:0.1rem;
+    border-radius: 0.07rem;
+}
+.internal_announcement_list ul li .internal_announcement_list_img{
+    width: 0.8rem;
+    height: 0.56rem;
+}
+.internal_announcement_list ul li .internal_announcement_list_img img{
+    width: 0.8rem;
+    height: 0.56rem;
+    border-radius: 0.02rem;
+}
+.internal_announcement_list ul li .internal_announcement_list_introduce{
+    margin-left: 0.12rem;
+    width: 2.2rem;
+    height: 100%;
+    overflow: hidden;
+}
+.mint-loadmore-bottom span{
+    color: #ffffff;
+}
+img[lazy=loading] {
+  width: 1rem;
+  height: 0.72rem;
+  margin: auto;
+}
+.public_img .show_title_img .img_show{
+    padding: 0.2rem;
+}
+.public_img #img_show img{
+	width: 3rem;
+}
